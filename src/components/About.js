@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Image, Button, Form } from 'react-bootstrap'
+import { Container, Row, Col, Image, Button } from 'react-bootstrap'
 import Photo from '../assets/about.webp'
 
 export default function About() {

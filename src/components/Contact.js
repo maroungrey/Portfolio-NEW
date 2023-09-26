@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Container, Row, Col, Image, Button, Form } from 'react-bootstrap'
+import { Button, Form } from 'react-bootstrap'
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Contact() {

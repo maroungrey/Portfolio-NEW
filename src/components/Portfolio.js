@@ -1,16 +1,15 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
-import pearl from '../assets/CafePearl1.png';
-import pearlOverlay from '../assets/CafePearl.png';
-import purium from '../assets/Purium.png';
-import puriumOverlay from '../assets/Purium1.png';
-import panoplie from '../assets/panoplie.png';
-import panoplieOverlay from '../assets/Panoplie1.png';
-import eargasm from '../assets/Eargasm.png';
-import eargasmOverlay from '../assets/Eargasm1.png';
-import hairsalon from '../assets/hairsalon.png';
-import hairsalonOverlay from '../assets/HairSalon1.png';
-import trevor from '../assets/trevor.png';
+import pearl from '../assets/CafePearl1.webp';
+import pearlOverlay from '../assets/CafePearl.webp';
+import purium from '../assets/Purium.webp';
+import puriumOverlay from '../assets/Purium1.webp';
+import panoplie from '../assets/panoplie.webp';
+import panoplieOverlay from '../assets/Panoplie1.webp';
+import eargasm from '../assets/Eargasm.webp';
+import eargasmOverlay from '../assets/Eargasm1.webp';
+import hairsalon from '../assets/hairsalon.webp';
+import hairsalonOverlay from '../assets/HairSalon1.webp';
 
 
 export default function Portfolio() {
