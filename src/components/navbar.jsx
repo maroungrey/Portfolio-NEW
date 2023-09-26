@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav, NavLink, Image } from 'react-bootstrap'
-import Logo from "../assets/Logo.svg"
+import Logo from "../assets/Logo.webp"
 
 const menuData = [
   {
