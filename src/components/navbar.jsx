@@ -30,7 +30,7 @@ export default function AppNavbar() {
         {/* LOGO */}
         <Image
           src={Logo}
-          className="w-100"
+          className="w-100 logo-header"
           alt="Maroun Grey Logo"
           fluid
         />

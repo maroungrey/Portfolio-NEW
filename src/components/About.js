@@ -12,7 +12,7 @@ export default function About() {
     <Container className='pb-5'> 
             <Row>
                 <Col sm={12} lg={6} className='d-flex align-items-center justify-content-center'>
-                    <Image src={Photo} fluid/>
+                    <Image src={Photo} fluid alt="Professional photo of Maroun"/>
                 </Col>
                 <Col sm={12} lg={6} className='d-flex align-items-center justify-content-center p-3'>
                     <div className='about-text'>

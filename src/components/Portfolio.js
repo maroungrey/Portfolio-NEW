@@ -25,9 +25,9 @@ export default function Portfolio() {
             <Row className='mb-5 pb-5 portfolio-row'>
                 <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 1 }} className='d-flex align-items-center justify-content-center px-5'>
                 <div className='portfolio-image'>
-                    <Image src={pearl} fluid/>
+                    <Image src={pearl} fluid alt='Pearl Cafe'/>
                     <div className='image-overlay'>
-                        <Image src={pearlOverlay} fluid />
+                        <Image src={pearlOverlay} fluid alt='Pearl Cafe'/>
                     </div>
                 </div>
                 </Col>
@@ -50,9 +50,9 @@ export default function Portfolio() {
                 </Col>
                 <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 2 }} className='d-flex align-items-center justify-content-center px-5'>
                     <div className='portfolio-image'>
-                        <Image src={puriumOverlay} fluid/>
+                        <Image src={puriumOverlay} fluid alt='Purium'/>
                         <div className='image-overlay'>
-                            <Image src={purium} fluid />
+                            <Image src={purium} fluid alt='Purium'/>
                         </div>
                     </div>
                 </Col>
@@ -61,9 +61,9 @@ export default function Portfolio() {
             <Row className='mb-5 pb-5 portfolio-row'>
                 <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 1 }} className='d-flex align-items-center justify-content-center px-5'>
                 <div className='portfolio-image'>
-                    <Image src={panoplieOverlay} fluid/>
+                    <Image src={panoplieOverlay} fluid alt='Panoplie'/>
                     <div className='image-overlay'>
-                        <Image src={panoplie} fluid />
+                        <Image src={panoplie} fluid alt='Panoplie'/>
                     </div>
                 </div>
                 </Col>
@@ -86,9 +86,9 @@ export default function Portfolio() {
                 </Col>
                 <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 2 }} className='d-flex align-items-center justify-content-center px-5'>
                     <div className='portfolio-image'>
-                        <Image src={hairsalonOverlay} fluid/>
+                        <Image src={hairsalonOverlay} fluid alt='Hair Salon'/>
                         <div className='image-overlay'>
-                            <Image src={hairsalon} fluid />
+                            <Image src={hairsalon} fluid alt='Hair Salon'/>
                         </div>
                     </div>
                 </Col>
@@ -97,9 +97,9 @@ export default function Portfolio() {
             <Row className='mb-5 pb-5 portfolio-row'>
                 <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 1 }} className='d-flex align-items-center justify-content-center px-5'>
                 <div className='portfolio-image'>
-                    <Image src={eargasmOverlay} fluid/>
+                    <Image src={eargasmOverlay} fluid alt='Eargasm'/>
                     <div className='image-overlay'>
-                        <Image src={eargasm} fluid />
+                        <Image src={eargasm} fluid alt='Eargasm'/>
                     </div>
                 </div>
                 </Col>

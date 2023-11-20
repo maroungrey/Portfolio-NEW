@@ -142,8 +142,13 @@ footer {
     font-size: 1.5rem;
   }
 }
-.header-logo {
-  width: 350px;
+.logo-header {
+  max-width: 500px;
+  padding-right: 10%;
+  padding-left:10%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 .hero-icons, .hero-text, #header-navbar a {
   color: #fff !important;

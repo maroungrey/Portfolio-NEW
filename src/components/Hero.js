@@ -49,13 +49,13 @@ export default function Hero() {
             </div>
           </Col>
           <Col sm={12} md={6} className='d-flex align-items-bottom'>
-            <Image src={ProfileImg} fluid/>
+            <Image src={ProfileImg} fluid alt="Profile picture of Maroun. He is smiling and holding laptop"/>
           </Col>
         </Row>
       </Container>
       <div className="footer-container">
         <div className="footer-parent">
-          <Image src={Shape} alt="Maroun" />
+          <Image src={Shape} alt="Shape dividing sections of webpage" />
         </div>
       </div>
     </section>
