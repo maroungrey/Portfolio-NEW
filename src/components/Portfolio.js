@@ -45,6 +45,7 @@ export default function Portfolio() {
                     <div className='py-4'>
                         <h4 className='text-start services-title'>Purium</h4>
                         <p className='text-start'>A Shopify store offering organic food supplements, I enhanced it with custom features and accessibility compliance for an inclusive shopping experience.</p>
+                        <p className='text-start'><i>Please note that the current state of the website may differ from my original work. If you would like to view the website as it was during my involvement, please <a href="https://web.archive.org/web/20221016191539/https://ishoppurium.com/" target="_blank">click here</a>.</i></p>
                         <a className='button-red float-start' href='https://ishoppurium.com/' target='_blank'><Button className=''>View Project</Button></a>
                     </div>
                 </Col>
