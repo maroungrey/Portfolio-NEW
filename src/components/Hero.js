@@ -17,6 +17,7 @@ export default function Hero() {
                 <a href='https://www.linkedin.com/in/maroungrey/' target='_blank'><i className="fa-brands fa-linkedin fa-xl py-2 pe-3"></i></a>
                 <a href='https://github.com/maroungrey' target='_blank'><i className="fa-brands fa-github fa-xl py-2 pe-3"></i></a>
                 <a href='https://www.instagram.com/maroungrey/' target='_blank'><i className="fa-brands fa-instagram fa-xl py-2 pe-3"></i></a>
+                <a href='https://www.yelp.com/biz/maroon-grey-web-development-san-fernando-valley' target='_blank'><i class="fa-brands fa-yelp"></i></a>
               </div>
               <div className='py-1'>
                 <h2 className='hero-text'>Hello, I'm <span id='maroun'>MAROUN</span></h2>
