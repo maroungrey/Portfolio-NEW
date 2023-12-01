@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
-import pearl from '../assets/CafePearl1.webp';
-import pearlOverlay from '../assets/CafePearl.webp';
+import happyDays from '../assets/HappyDays.webp';
+import happyDaysOverlay from '../assets/HappyDays1.webp';
 import purium from '../assets/Purium.webp';
 import puriumOverlay from '../assets/Purium1.webp';
 import panoplie from '../assets/panoplie.webp';
@@ -25,17 +25,17 @@ export default function Portfolio() {
             <Row className='mb-5 pb-5 portfolio-row'>
                 <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 1 }} className='d-flex align-items-center justify-content-center px-5'>
                 <div className='portfolio-image'>
-                    <Image src={pearl} fluid alt='Pearl Cafe'/>
+                    <Image src={happyDays} fluid alt='Happy Days Cafe'/>
                     <div className='image-overlay'>
-                        <Image src={pearlOverlay} fluid alt='Pearl Cafe'/>
+                        <Image src={happyDaysOverlay} fluid alt='Happy Days Cafe'/>
                     </div>
                 </div>
                 </Col>
                 <Col xs={{ span: 12, order: 2 }} lg={{ span: 6, order: 2 }} className='d-flex align-items-center justify-content-center px-5'>
                     <div className='py-4'>
-                        <h4 className='text-start services-title'>Pearl Cafe</h4>
-                        <p className='text-start'>I've created this captivating website template using React and Bootstrap, ideal for showcasing cafes and restaurants with style and ease.</p>
-                        <a className='button-red float-start' href='https://benevolent-macaron-9f152d.netlify.app/' target='_blank'><Button className=''>View Project</Button></a>
+                        <h4 className='text-start services-title'>Happy Days Cafe</h4>
+                        <p className='text-start'>Leveraged my own custom React and Bootstrap template to rapidly build responsive front-end. Coordinated with photographer to capture visually stunning images that met website needs. Wrote SEO-friendly copy and optimized it for maximum search impact and speed through web performance best practices.</p>
+                        <a className='button-red float-start' href='https://happydayscafe.com/' target='_blank'><Button className=''>View Project</Button></a>
                     </div>
                 </Col>
             </Row>
