@@ -4,30 +4,30 @@ import { Container, Row, Col } from 'react-bootstrap'
 const servicesData = [
   {
       id: 1,
-      icon: "fa-solid fa-table",
-      title: 'Web Design',
-      description: "Crafting stunning, user-friendly websites tailored to your brand's unique needs and goals",
+      icon: "fa-solid fa-mobile-screen-button",
+      title: 'Responsive Website Design',
+      description: "I design websites optimized for seamless user experiences on all devices. With mobile-first builds and intuitive navigation that embed your brand directly into your customers' hands.",
       color: "#dbdbdb"
   },
   {
       id: 2,
       icon: "fa-solid fa-laptop",
-      title: 'Web Development',
-      description: "Building robust backends and seamless front-ends to bring your custom digital products to life.",
+      title: 'Ecommerce Store Creation',
+      description: "I specialize in building fully customized online stores on flexible platforms like Shopify and Magento, integrating modern features and functionality to unlock new sales opportunities.",
       color: "#dbdbdb"
   },
   {
       id: 3,
-      icon: "fa-solid fa-magnifying-glass",
-      title: 'SEO Marketing',
-      description: "Optimizing your website to boost visibility, organic traffic, and conversions.",
+      icon: "fa-solid fa-code",
+      title: 'Custom Integrations',
+      description: "I bring innovative visions to life by building custom features that extend your platform's functionality tailored to your specific business needs: Web Apps, AI Integrations, Dashboards.",
       color: "#dbdbdb"
   },
   {
       id: 4,
-      icon: "fa-solid fa-image",
-      title: 'Copywriting',
-      description: "Producing compelling copy that informs, engages, and convinces your audience to take action.",
+      icon: "fa-solid fa-magnifying-glass",
+      title: 'SEO & Digital Marketing',
+      description: "I boost online visibility and website revenue potential through analytics-driven SEO and conversion rate optimization that drive targeted traffic and identify growth opportunities.",
       color: "#dbdbdb"
   }
 ]

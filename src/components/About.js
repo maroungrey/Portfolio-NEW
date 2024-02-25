@@ -16,9 +16,9 @@ export default function About() {
                 </Col>
                 <Col sm={12} lg={6} className='d-flex align-items-center justify-content-center p-3'>
                     <div className='about-text'>
-                        <h4 className="text-center text-lg-left services-title">I'm a Freelance Front-end Developer with over 3 years of experience.</h4>
-                        <p className="about-me-description text-center text-lg-left">I'm a freelance web developer with 3 years of experience building custom websites. I have created multiple ecommerce sites using Magento 2, WordPress, React and Shopify, and am experienced with building non-ecommerce sites as well. Whether you need an online store built from scratch, your existing site rebuilt, or a completely custom web solution, I have the skills to make it happen. I'm available for hire to help businesses and individuals create the website they envision, no matter the industry or complexity. Let's work together to build your ideal web presence.</p>
-                        <a className='about-button button-red' href='https://maroun-barqawi.tiiny.site/' target='_blank'><Button className=''>View Resume</Button></a>
+                        <h3 className="text-center text-lg-left services-title">Small Business Web Design Focused on Your Goals</h3>
+                        <p className="about-me-description text-center text-lg-left">I create custom websites tailored to each client's unique needs. Whether you need a completely custom web design from scratch, your existing WordPress or Shopify site rebuilt for better performance, or expert web development and coding work, I have the skills to make it happen. I work with small businesses across all industries to build the website they envision, with a focus on driving real results - whether your goals are more traffic, increased conversions, or building your brand. My passion is using expert web design, web development and digital marketing strategies to create the ideal online presence for each client.</p>
+                        <a className='about-button button-red' href='https://maroun-barqawi.tiiny.site/' target='_blank'><Button id='view_resume'>View Resume</Button></a>
                     </div>
                 </Col>
             </Row>

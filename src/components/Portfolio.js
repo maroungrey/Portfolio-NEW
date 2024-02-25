@@ -8,8 +8,8 @@ import panoplie from '../assets/panoplie.webp';
 import panoplieOverlay from '../assets/Panoplie1.webp';
 import eargasm from '../assets/Eargasm.webp';
 import eargasmOverlay from '../assets/Eargasm1.webp';
-import hairsalon from '../assets/hairsalon.webp';
-import hairsalonOverlay from '../assets/HairSalon1.webp';
+import landing from '../assets/Landing.webp';
+import landingOverlay from '../assets/Landing1.webp';
 
 
 export default function Portfolio() {
@@ -43,10 +43,9 @@ export default function Portfolio() {
             <Row className='mb-5 pb-5 portfolio-row'>
                 <Col xs={{ span: 12, order: 2 }} lg={{ span: 6, order: 1 }} className='d-flex align-items-center justify-content-center px-5'>
                     <div className='py-4'>
-                        <h4 className='text-start services-title'>Purium</h4>
-                        <p className='text-start'>A Shopify store offering organic food supplements, I enhanced it with custom features and accessibility compliance for an inclusive shopping experience.</p>
-                        <p className='text-start'><i>Please note that the current state of the website may differ from my original work. If you would like to view the website as it was during my involvement, please <a href="https://web.archive.org/web/20221016191539/https://ishoppurium.com/" target="_blank">click here</a>.</i></p>
-                        <a className='button-red float-start' href='https://ishoppurium.com/' target='_blank'><Button className=''>View Project</Button></a>
+                        <h4 className='text-start services-title'>Purium Blog</h4>
+                        <p className='text-start'>A Wordpress Blog offering educational content for organic food supplements, I enhanced it with custom front-end features like custom smart search bar plugin that queries a comprehensive site FAQ that highlights matching keywords and only displays FAQ questions relevant to the search query.</p>
+                        <a className='button-red float-start' href='https://blog.puriumcorp.com/' target='_blank'><Button className=''>View Project</Button></a>
                     </div>
                 </Col>
                 <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 2 }} className='d-flex align-items-center justify-content-center px-5'>
@@ -54,42 +53,6 @@ export default function Portfolio() {
                         <Image src={puriumOverlay} fluid alt='Purium'/>
                         <div className='image-overlay'>
                             <Image src={purium} fluid alt='Purium'/>
-                        </div>
-                    </div>
-                </Col>
-            </Row>
-
-            <Row className='mb-5 pb-5 portfolio-row'>
-                <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 1 }} className='d-flex align-items-center justify-content-center px-5'>
-                <div className='portfolio-image'>
-                    <Image src={panoplieOverlay} fluid alt='Panoplie'/>
-                    <div className='image-overlay'>
-                        <Image src={panoplie} fluid alt='Panoplie'/>
-                    </div>
-                </div>
-                </Col>
-                <Col xs={{ span: 12, order: 2 }} lg={{ span: 6, order: 2 }} className='d-flex align-items-center justify-content-center px-5'>
-                    <div className='py-4'>
-                        <h4 className='text-start services-title'>Panoplie</h4>
-                        <p className='text-start'>I built this Magento 2 based store from scratch, it features a curated selection of truly unique furniture pieces for discerning homeowners.</p>
-                        <a className='button-red float-start' href='https://www.panoplie.com/' target='_blank'><Button className=''>View Project</Button></a>
-                    </div>
-                </Col>
-            </Row>
-
-            <Row className='mb-5 pb-5 portfolio-row'>
-                <Col xs={{ span: 12, order: 2 }} lg={{ span: 6, order: 1 }} className='d-flex align-items-center justify-content-center px-5'>
-                    <div className='py-4'>
-                        <h4 className='text-start services-title'>Hair Salon</h4>
-                        <p className='text-start'>I've crafted this website template with React and Bootstrap, tailored for effortless style and presentation of hair salons and other small businesses.</p>
-                        <a className='button-red float-start' href='https://moonlit-syrniki-ced2ff.netlify.app/' target='_blank'><Button className=''>View Project</Button></a>
-                    </div>
-                </Col>
-                <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 2 }} className='d-flex align-items-center justify-content-center px-5'>
-                    <div className='portfolio-image'>
-                        <Image src={hairsalonOverlay} fluid alt='Hair Salon'/>
-                        <div className='image-overlay'>
-                            <Image src={hairsalon} fluid alt='Hair Salon'/>
                         </div>
                     </div>
                 </Col>
@@ -107,8 +70,44 @@ export default function Portfolio() {
                 <Col xs={{ span: 12, order: 2 }} lg={{ span: 6, order: 2 }} className='d-flex align-items-center justify-content-center px-5'>
                     <div className='py-4'>
                         <h4 className='text-start services-title'>Eargasm</h4>
-                        <p className='text-start'>Shopify based store offering wide selection of earplugs. I've created several pages and front-end elements, optimized speed and SEO.</p>
+                        <p className='text-start'>Shopify based store offering wide selection of earplugs. I've created several custom pages and front-end elements beyond the original theme capabilities like minimalist header design, custom categories section on the home page, partnerships page, optimized loading speed and SEO.</p>
                         <a className='button-red float-start' href='https://eargasm.com/' target='_blank'><Button className=''>View Project</Button></a>
+                    </div>
+                </Col>
+            </Row>
+
+            <Row className='mb-5 pb-5 portfolio-row'>
+                <Col xs={{ span: 12, order: 2 }} lg={{ span: 6, order: 1 }} className='d-flex align-items-center justify-content-center px-5'>
+                    <div className='py-4'>
+                        <h4 className='text-start services-title'>Purium Landing Page</h4>
+                        <p className='text-start'> I have created this landing page using HTML, CSS, Bootstrap 5 and Javascript. The purpose of this project is to redirect customers from the old websites that are getting deprecated to the new systems.</p>
+                        <a className='button-red float-start' href='https://puriumsuperfoods.com/' target='_blank'><Button className=''>View Project</Button></a>
+                    </div>
+                </Col>
+                <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 2 }} className='d-flex align-items-center justify-content-center px-5'>
+                    <div className='portfolio-image'>
+                        <Image src={landingOverlay} fluid alt='Purium Landing Page'/>
+                        <div className='image-overlay'>
+                            <Image src={landing} fluid alt='Purium Landing Page'/>
+                        </div>
+                    </div>
+                </Col>
+            </Row>
+
+            <Row className='mb-5 pb-5 portfolio-row'>
+                <Col xs={{ span: 12, order: 1 }} lg={{ span: 6, order: 1 }} className='d-flex align-items-center justify-content-center px-5'>
+                <div className='portfolio-image'>
+                    <Image src={panoplieOverlay} fluid alt='Panoplie'/>
+                    <div className='image-overlay'>
+                        <Image src={panoplie} fluid alt='Panoplie'/>
+                    </div>
+                </div>
+                </Col>
+                <Col xs={{ span: 12, order: 2 }} lg={{ span: 6, order: 2 }} className='d-flex align-items-center justify-content-center px-5'>
+                    <div className='py-4'>
+                        <h4 className='text-start services-title'>Panoplie</h4>
+                        <p className='text-start'>I built this Magento 2 based home furniture store from scratch using WeltPixel theme and enhanced it with custom HTML, CSS and JavaScript. Examples include better cart and checkout design and minimalistic product pages.</p>
+                        <a className='button-red float-start' href='https://www.panoplie.com/' target='_blank'><Button className=''>View Project</Button></a>
                     </div>
                 </Col>
             </Row>

@@ -26,15 +26,15 @@ export default function Hero() {
                 <h3 className='hero-text font-hermit'>
                 <TypeAnimation
                     sequence={[
-                      'Software Engineer',
+                      'Web Development',
+                      1500,
+                      'Shopify & Wordpress',
+                      1500,
+                      'Organic SEO',
                       1500, 
-                      'Full Stack Developer',
+                      'Custom Coding',
                       1500,
-                      'E-Commerce Developer',
-                      1500,
-                      'Web Developer',
-                      1500,
-
+   
                   ]}
                   wrapper="span"
                   cursor={true}
@@ -42,7 +42,7 @@ export default function Hero() {
                   />
                 </h3>
               </div>
-              <p className='hero-text'>Based in Los Angeles, California.</p>
+              <p className='hero-text'>Los Angeles based freelance web<br></br>developer serving local small businesses.</p>
               <div>
                 <a className='pe-3 button-red' href='#contact'><Button>Get in Touch</Button></a>
                 <a className='pe-3 button-red'href='#portfolio'><Button>View Portfolio</Button></a>

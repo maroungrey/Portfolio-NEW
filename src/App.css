@@ -29,6 +29,9 @@ body ::-webkit-scrollbar-thumb {
 a, a:hover {
   color: #505050 !important;
 }
+a.about-button {
+  text-decoration: none !important;
+}
 .btn, .btn:hover {
   background-color: #505050 !important;
 }
